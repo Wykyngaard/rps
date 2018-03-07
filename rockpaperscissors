@@ -1,0 +1,17 @@
+you = choose("Make your choice","rock","paper","scissors")'
+comp = random(3);
+  if(comp == 1){show("rock");}
+  else if(comp == 2){show("paper");}
+  else if(comp == 3){show("scissors");}
+    if(comp == 1){
+      if(you == 1){show("Draw");}
+      else if(you == 2){show("You win");}
+      else if(you == 3){show("Computer wins");}
+    }else if(comp == 2){
+      if(you == 1){show("Computer wins");}
+      else if(you == 2){show("Draw");}
+      else if(you == 3){show("You win");}
+    }else if(comp == 3){
+      if(you == 1){show("You win");}
+      else if(you == 2){show("Computer wins");}
+      else if(you == 3){show("Draw");}
